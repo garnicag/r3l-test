@@ -1,0 +1,35 @@
+<div class="chart-wrapper">
+    <h3>Speed Zones</h3>
+    <canvas baseChart class="chartOne"
+        [datasets]="chartData"
+        [labels]="chartLabels"
+        [options]="chartOneOpts.options"
+        [legend]="chartOneOpts.legend"
+        [chartType]="chartOneOpts.type">
+    </canvas>
+</div>
+
+<div class="chart-wrapper">
+    <h3>Count by Zones</h3>
+    <canvas baseChart class="chartOne"
+        [datasets]="chartData"
+        [labels]="chartLabelsTwo"
+        [options]="chartTwoOpts.options"
+        [legend]="chartTwoOpts.legend"
+        [chartType]="chartTwoOpts.type">
+    </canvas>
+</div>
+
+
+<div class="chart-wrapper">
+    <h3>Speed Average</h3>
+    <canvas baseChart class="chartOne"
+        [datasets]="chartData"
+        [labels]="chartLabelsTwo"
+        [options]="chartThreeOpts.options"
+        [legend]="chartThreeOpts.legend"
+        [chartType]="chartThreeOpts.type">
+    </canvas>
+</div>
+    
+<br><br>

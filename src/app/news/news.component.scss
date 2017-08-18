@@ -1,0 +1,46 @@
+@import '../styles/_globals.scss';
+
+p {
+    font-family: $font-main;
+    font-size: 14px;
+}
+
+.news-item {
+    display: inline-block;
+    margin: 20px;
+    background-color: $white;
+    border: solid 1px $grey-lighter;
+    vertical-align: top;
+    padding: 15px;
+    border-radius: 6px;
+    width: 280px;
+    font-family: $font-main;
+    position: relative;
+
+    h4 {
+        color: $cerulean-light;
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 16px;
+        line-height: 1.25;
+        text-align: left;
+        color: #3c454c;
+        margin: 15px 0;
+    }
+
+    span.date {
+        font-size: 11px;
+        line-height: 1.45;
+        text-align: right;
+        color: #b9b9b9;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    p {
+        color: #666666;
+    }
+}

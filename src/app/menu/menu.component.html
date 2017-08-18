@@ -1,0 +1,15 @@
+<div class="side-menu" [class.collapsed]="collapsedMenu">
+  <div class="menu-wrapper">
+    <h2>
+      Navigate
+    </h2>
+
+    <ul>
+      <li><a routerLink="/analytics" routerLinkActive="active-item"><i class="icon-analytics"></i><span>Analytics</span></a></li>
+      <li><a routerLink="/news" routerLinkActive="active-item"><i class="icon-news"></i><span>News</span></a></li>
+      <li><a routerLink="/boardbrief" routerLinkActive="active-item"><i class="icon-boardbrief"></i><span>Board Brief</span></a></li>
+      <li><a routerLink="/briefcase" routerLinkActive="active-item"><i class="icon-briefcase"></i><span>Briefcase</span></a></li>
+      <li class="close-menu"><a (click)="sideNavToggle()"><i class="icon-close"></i><span>Close menu</span></a></li>
+    </ul>
+  </div>
+</div>

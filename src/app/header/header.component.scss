@@ -1,0 +1,44 @@
+@import '../styles/_globals.scss';
+
+.header {
+    background: $grey-medium;
+    height: 61px;
+    position: relative;
+    font-family: $font-main;
+    font-size: 14px;
+
+    .title {
+        background: $grey-dark;
+        width: 264px;
+        height: 60px;
+        position: relative;
+
+        h1 {
+            background: url('/assets/r-3-l-logo-application-02.png') no-repeat;
+            background-size: 169px 20px;
+            text-indent: -999px;
+            overflow: hidden;
+            width: 169px;
+            position: absolute;
+            left: 48px;
+            top: 20px;
+        }
+    }
+
+    .user {
+        position: absolute;
+        right: 66px;
+        top: 21px;
+
+        a {
+            background: url('/assets/cog.png') center right no-repeat;
+            color: $white;
+            text-decoration: none;
+            padding-right: 26px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

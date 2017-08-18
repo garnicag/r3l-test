@@ -1,0 +1,13 @@
+.app-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    padding: 40px;
+    background: #f5f5fa;
+    min-height: calc(100vh - 141px);
+    display: flex;
+    position: relative;
+    width: 100%;
+}
